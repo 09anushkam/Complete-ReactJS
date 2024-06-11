@@ -141,7 +141,7 @@ use as - `<Nav/> <Routing path="/nav" element={<Nav/>}/>`
 - `import { useNavigate, useParams } from 'react-router-dom'` - import useParams and useNavigate in UserDetail.jsx
 - Use it in UserDetail.jsx
 
-        const {name}=useParams()  
+        const {name}=useParams() <!-- for dynamic routing-->  
         const navigate=useNavigate()  <!-- for navigating using button  -->  
         const GoBackHandler=()=>{  
         navigate("/user")  
