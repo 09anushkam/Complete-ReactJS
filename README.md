@@ -60,9 +60,17 @@
 
 -     const [val,setVal] = useState(initial_value)  
 <!--setting some value onclick-->  
--     <button onClick={()=>setVal(()=>val.filter((item)=>item%2!==0))} className='px-2 py-1 text-white rounded-full bg-blue-500'>click</button>  
+-     <button
+         onClick={()=>setVal(()=>val.filter((item)=>item%2!==0))}
+         className='px-2 py-1 text-white rounded-full bg-blue-500'>
+         click
+      </button>  
 <!--setting some styling onclick-->  
--     <button onClick={()=>setVal({...val,isBanned:!val.isBanned})} className={`px-3 py-1 ${val.isBanned?'bg-blue-600':'bg-red-600'} text-xs rounded-full text-white`}>Change</button>  
+-     <button
+         onClick={()=>setVal({...val,isBanned:!val.isBanned})}
+         className={`px-3 py-1 ${val.isBanned?'bg-blue-600':'bg-red-600'} text-xs rounded-full text-white`}>
+         Change
+      </button>  
 
 ### Lec8 - Passing data via props from parent to child  
 
