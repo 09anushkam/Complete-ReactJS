@@ -86,7 +86,8 @@ Basic example :
 
 - App.jsx (parent) -
 
-      <Card text="Know More" color="bg-blue-600"/>  <Card text="Download" color="bg-red-600"/>
+      <Card text="Know More" color="bg-blue-600"/>
+      <Card text="Download" color="bg-red-600"/>
 
 - Card.jsx (child) -  
 
