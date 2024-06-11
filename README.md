@@ -124,7 +124,9 @@ inside of utils make Routing.jsx
 - `<Link to="/user">User</Link>` - using link in Nav.jsx  
 - instead of `<Link></Link>`, use `<NavLink></NavLink>`  
 `<NavLink></NavLink>` takes a function(callback) for styling purpose  
-- In App.jsx, import - `import Nav from "./Components/Nav"` and `import Routing from "./utils/Routing"` and use as - `<Nav/> <Routing/>`
+- In App.jsx,  
+import - `import Nav from "./Components/Nav"` and `import Routing from "./utils/Routing"`  
+use as - `<Nav/> <Routing path="/nav" element={<Nav/>}/>`  
 
 - Dynamic styling on NavLink  
 1. Dynamic style inside {} open brackets and returing span tag  
