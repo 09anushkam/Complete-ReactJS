@@ -38,7 +38,7 @@
 ### Lec3 - Components Reusability  
 
 - Creating array and applying map method on that array and returning all the elements of array in html with dynamic values of all elements to display it  
--        arr.map(()=>(html code))  
+-      arr.map(()=>(html code))  
 
 ### Lec4 - Conditional Rendering  
 
@@ -54,13 +54,13 @@
 - Cardz.jsx is used  
 - `onClick={handleClickDownload}` - on button
 
-### Lec5,6,7 useState hook  
+### Lec5,6,7 - useState hook  
 
 -     const [val,setVal] = useState(initial_value)  
 -     <button onClick={()=>setVal(()=>val.filter((item)=>item%2!==0))} className='px-2 py-1 text-white rounded-full bg-blue-500'>click</button>`  <!--setting some value onclick-->  
 -     <button onClick={()=>setVal({...val,isBanned:!val.isBanned})} className={`px-3 py-1 ${val.isBanned?'bg-blue-600':'bg-red-600'} text-xs rounded-full text-white`}>Change</button>```  <!--setting some styling onclick-->  
 
-### Lec8 passing data via props from parent to child  
+### Lec8 - Passing data via props from parent to child  
 
 Basic example :  
 
@@ -76,11 +76,11 @@ Basic example :
         )  
         }  
 
-### Lec9 exercise of states and component  
+### Lec9 - Exercise of states and component  
 
 Extra : style.module.css also import it for using  
 
-### Lec10 Form Handling  
+### Lec10 - Form Handling  
 
 - To stop reloading of page after form submission we use e.preventDefault()  
 we have 3 methods :  
@@ -88,9 +88,9 @@ we have 3 methods :
 - controlled components => updating real time data using state  
 - react hook form (mostly used)  `npm install react-hook-form`  
 
-### Lec11 exercise of form handling  
+### Lec11 - Exercise of form Handling  
 
-### Lec12 Routing  
+### Lec12 - Routing  
 
 - `npm i react-router-dom` - install react-router-dom  
 - `import {BrowserRouter} from 'react-router-dom'` - import in main.jsx for using ...
@@ -131,7 +131,7 @@ inside of utils make Routing.jsx
 2. Dynamic styling using style  
 3. Dynamic styling using className  
 
-### Lec13 Dynamic/child routing  
+### Lec13 - Dynamic/child routing  
 
 - Create UserDetail.jsx in Components  
 - `import { useNavigate, useParams } from 'react-router-dom'` - import useParams and useNavigate in UserDetail.jsx
@@ -166,7 +166,7 @@ App->Nav,Routing(routing)
 Routing->Home,User,UserDetail,About(routing)  
 User->UserDetail(dynamic routing)  
 
-### Lec14 Api Integration  
+### Lec14 - Api Integration  
 
 - Show.jsx  
 - `npm i axios`  
@@ -186,7 +186,7 @@ Component Mount (creation)
 Component Update (changes in same page)  
 Component Unmount (deletion)  
 
-### Lec15 useEffect  
+### Lec15 - useEffect  
 
 - Services.jsx, Show.jsx  
 to avoid clicking and direct rendering of components we use useEffect
@@ -220,7 +220,7 @@ utils/axios.jsx -
         const api="/products"; 
         axios.get(api).then(callback).catch(callback)  
 
-### Lec16 Context Api  
+### Lec16 - Context Api  
 
 1. Create Context dir in src and Context.jsx inside Context dir  
 2. We wrapped the browerRouter and app by Context  
