@@ -18,7 +18,7 @@
         "./src/**/*.{js,ts,jsx,tsx}",  
        ],
    
-5. inject tailwind in index.css -
+4. inject tailwind in index.css -
 
        @tailwind base;  
        @tailwind components;  
