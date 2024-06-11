@@ -1,4 +1,4 @@
-# React JS using vite  
+# React JS  
 
 ## Initial Setup  
 
