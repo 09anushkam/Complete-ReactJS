@@ -35,7 +35,7 @@
 
 - Creating Components dir in src  
 - Creating componentname.jsx file in Components dir
-- rafce - Snippet for boiler plate for componentname.jsx/app.jsx
+- rafce - Snippet for boiler plate for componentname.jsx and app.jsx
 
 ### Lec3 - Components Reusability  
 
