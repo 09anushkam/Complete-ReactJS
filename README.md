@@ -1,4 +1,6 @@
-# Initial Setup  
+# React JS using vite  
+
+## Initial Setup  
 
 1. `npm create vite@latest` - to create react app  
 2. `cd project_folder`  
