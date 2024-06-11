@@ -48,7 +48,10 @@
 - eg:
 
       <!-- here conditional rendering is used for button color -->  
-      <button className={`px-4 py-1 ${elem.instock?'bg-blue-600':'bg-red-600'} rounded text-xs text-zinc-100 mt-3`}>   
+      <button
+        className={`px-4 py-1
+        ${elem.instock?'bg-blue-600':'bg-red-600'}
+         rounded text-xs text-zinc-100 mt-3`}>   
       {elem.instock ? "In Stock" : "Out of Stock"} <!-- this is conditional rendering -->  
       </button>  
 
@@ -71,7 +74,9 @@
 - <!--setting some styling onclick-->
          <button
          onClick={()=>setVal({...val,isBanned:!val.isBanned})}
-         className={`px-3 py-1 ${val.isBanned?'bg-blue-600':'bg-red-600'} text-xs rounded-full text-white`}>
+         className={`px-3 py-1
+           ${val.isBanned?'bg-blue-600':'bg-red-600'}
+           text-xs rounded-full text-white`}>
          Change
       </button>  
 
@@ -161,7 +166,11 @@ use as - `<Nav/> <Routing path="/nav" element={<Nav/>}/>`
         }
 - Use it in UserDetail.jsx
 
-        <button onClick={GoBackHandler} className='mt-5 text-white px-3 py-2 bg-red-300'>Go back</button>  
+        <button
+           onClick={GoBackHandler}
+           className='mt-5 text-white px-3 py-2 bg-red-300'>
+           Go back
+        </button>  
 - In Routing.jsx for dynamic routing
   
         <Route path="/user/:name" element={<UserDetail/>} />   
