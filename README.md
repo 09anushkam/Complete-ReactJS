@@ -9,8 +9,8 @@
 
 ## Tailwind css  
 
-1. `npm install -D tailwindcss postcss autoprefixer`  
-2. `npx tailwindcss init -p`  
+1. `npm install -D tailwindcss postcss autoprefixer` - to install tailwind  
+2. `npx tailwindcss init -p` - to create tailwind files  
 3. make changes in content:[] of tailwind.config.js -
    
         content: [  
