@@ -36,9 +36,7 @@
 -> Creating array and applying map method on that array and returning all the elements of array in html with dynamic values of all elements to display it  
 -> `arr.map(()=>(html code))`
 
-### Lec4 -  
-
-### Conditional Rendering  
+### Lec4 - Conditional Rendering  
 
 -> Card.jsx is used  
 
