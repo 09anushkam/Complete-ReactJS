@@ -208,14 +208,14 @@ to avoid clicking and direct rendering of components we use useEffect
 - second - `on clicking 2nd button service page gets re-render` where as on clicking 1st button service page do not gets re-render  
 if u pass empty array in 2nd argument then rerendering of that page stops even on state change  
 
--> instead of importing axios in every file import it in utils/axios.jsx and use it's reference in every page wherever required  
-utils/axios.jsx -  
+- instead of importing axios in every file import it in utils/axios.jsx and use it's reference in every page wherever required  
+- utils/axios.jsx -
 
-    import axios from "axios";  
-     const instance=axios.create({  
-    baseURL:"https://fakestoreapi.com/",  
-    })  
-    export default instance  
+      import axios from "axios";  
+        const instance=axios.create({  
+       baseURL:"https://fakestoreapi.com/",  
+       })  
+       export default instance  
 
 - Use this reference in other pages for importing axios and then  
     `import axios from '../utils/axios'` 
