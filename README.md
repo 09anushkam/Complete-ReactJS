@@ -47,7 +47,8 @@
 - Card.jsx is used  
 - eg:
 
-      <button className={`px-4 py-1 ${elem.instock?'bg-blue-600':'bg-red-600'} rounded text-xs text-zinc-100 mt-3`}> <!-- here conditional rendering is used for button color -->  
+      <!-- here conditional rendering is used for button color -->  
+      <button className={`px-4 py-1 ${elem.instock?'bg-blue-600':'bg-red-600'} rounded text-xs text-zinc-100 mt-3`}>   
       {elem.instock ? "In Stock" : "Out of Stock"} <!-- this is conditional rendering -->  
       </button>  
 
