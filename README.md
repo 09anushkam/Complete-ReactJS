@@ -1,4 +1,4 @@
-# React JS Notes  
+# React Js Notes  
 
 ## Initial Setup  
 
