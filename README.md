@@ -216,7 +216,7 @@ Component Unmount (deletion)
 ### Lec15 - useEffect  
 
 - Services.jsx, Show.jsx  
-to avoid clicking and direct rendering of components we use useEffect
+to avoid clicking and do direct rendering of components we use useEffect
 - import useEffect -  
 
       import { useEffect } from 'react' 
